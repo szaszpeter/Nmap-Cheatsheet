@@ -36,3 +36,11 @@ An empty repo containing a list of useful Nmap Commands
 - `nmap -p- <target>` - scan all possible ports
 - `nmap --open <target>` - only list open ports
 
+## Writing results to a file
+
+- `nmap -F -oN <destination> <target>` - writes the results in a regular textfile.
+- `nmap -F -oX <destination> <target>` - writes the results in an XML file.
+
+## Verbose scan
+
+- `nmap -v <target>` - prints out logs while scanning.
